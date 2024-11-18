@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.main_box{
+    margin: 2rem 4rem;
+    /* border: 2px solid black; */
+    background-color: rgba(214, 209, 209, 0.571);
+    filter: drop-shadow(10px 5px 8px rgba(0, 0, 0, 0.21));
+    padding-bottom: 2rem;
+}
+
+.secondary_box{
+    margin: 2rem 2rem;
+    border: 2px solid black;
+}
+
+.main_body{
+    display: grid;
+    grid-template-columns: 2.5fr 6fr;
+    margin: 3rem 6rem;
+    /* border: 2px solid black; */
+    background-color: rgb(244, 238, 238);
+    filter: drop-shadow(0px 6px 3px rgba(0, 0, 0, 0.21));
+
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+    /* gap:24rem; */
+    background-color: rgb(40, 38, 38);
+    color: white;
+    font-size: 1.1rem;
+}
+
+#main_heading{
+    position: absolute;
+    left: 2rem;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+
+.side_panel{
+    display: flex;
+    flex-direction: column;
+    background-color: #10451D;
+    /* border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem; */
+    width: 100%;
+    height: 50rem;
+    background-image: linear-gradient(to right bottom, #7dd56f, #28b487);
+    padding: 4rem 0;
+}
+
+
+#logo{
+    width: 4.5rem;
+    height: 2.5rem;
+    padding: 1rem 2rem;
+    filter: drop-shadow(0px 6px 3px rgba(0, 0, 0, 0.21));
+}
+
+.logo_with_text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.side_panel ul li{
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    /* margin-left: 1rem; */
+    padding-left: 1rem;
+}
+
+.side_panel ul li a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    /* filter: drop-shadow(0px 10px 3px rgba(0, 0, 0, 0.21)); */
+    transition: transform 0.3s ease-out;
+    font-size: 15px;
+}
+.side_panel ul li a:hover{
+    transform: translateX(20px);
+}
+
+.side_panel ul li:hover{
+    border-left: 5px solid white;
+}
+.side_panel ul li:active{
+    /* transform: translateX(20px); */
+    border-left: 5px solid white;
+}
+
+.side_panel ul li a:active{
+    color: green;
+}
+
+/* icons */
+.svg_icons{
+    fill: white;
+    margin-left: 0rem;
+    padding: 0rem;
+    width: 2.5rem;
+    height: 2rem;
+    padding: 1rem;
+}
+
+/* #users{
+    fill: white;
+    margin-left: 0rem;
+    padding: 0rem;
+    width: 2.5rem;
+    height: 2rem;
+    padding: 1rem;
+} */
+
+.svg_icons_2{
+    margin-left: 0rem;
+    padding: 0rem;
+    width: 2.5rem;
+    height: 2rem;
+    padding: 1rem;
+}
+#calendar_icon{
+    margin-left: 0rem;
+    padding: 0rem;
+    width: 2.5rem;
+    height: 2rem;
+    padding: 1rem;
+}
+
+#table_body{
+    padding: 2rem 2rem;
+    filter: drop-shadow(0px 6px 3px rgba(0, 0, 0, 0.21));
+    
+}
+
+.tabulator{
+    background-color: transparent !important;
+    border: 0px !important;
+}
+
+.tabulator-arrow{
+    display: none;
+}
+
+.tabulator-headers{
+    margin-bottom: 3px;
+}
+
+/* Add Booking */
+#addBookingForm{
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+#addBookingForm h3{
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+#addBookingForm label{
+    font-size: 1.2rem;
+    padding: 1rem 1rem;
+    display: block;
+}
+
+#addBookingForm input, select{
+    margin: 1rem 1rem;
+    padding: .7rem .7rem;
+    font-size: .9rem;
+}
+
+#btn{
+    margin-left: 14rem;
+    padding: 1rem 4rem;
+    border-radius: 1rem;
+    border: 0px;
+    background-image: linear-gradient(to right bottom, #7dd56f, #28b487);
+    cursor: pointer;
+    color: white;
+    font-size: 1.1rem;
+    transition: 0.3s ease-out;
+}
+
+#btn:hover{
+    color: #10451D;
+}
+
+#modifyBookingForm{
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+#modifyBookingForm h3{
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+#modifyBookingForm label{
+    font-size: 1.2rem;
+    padding: 1rem 1rem;
+    display: block;
+}
+
+#modifyBookingForm input, select{
+    margin: 1rem 1rem;
+    padding: .7rem .7rem;
+    font-size: .9rem;
+}
+#modifyBookingForm textarea{
+    margin-left: 1rem;
+    font-size: .9rem;
+
+}
